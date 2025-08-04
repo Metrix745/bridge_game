@@ -35,7 +35,7 @@ def main():
         dt = clock.get_time()
         passed_time += dt
 
-        if passed_time % (SPAWN_INTERVAL * 1000) < dt and len(enemies) < 0:
+        if passed_time % (SPAWN_INTERVAL * 1000) < dt and len(enemies) < 1:
             enemies.append(Enemy(random.randint(0, WORLD_WIDTH), 0))
 
         player.update(platforms, enemies)
