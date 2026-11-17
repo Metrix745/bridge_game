@@ -1,5 +1,5 @@
 '''settings for the game'''
-HIGH_SCORES = r"bridge_game\scores.csv"
+HIGH_SCORES = r"scores.csv"
 
 SCREEN_HEIGHT = 450
 SCREEN_WIDTH = 800

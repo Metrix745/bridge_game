@@ -3,7 +3,7 @@ import pygame
 from settings import *
 
 # BD3
-BACKGROUND_DIR = r"bridge_game\Parallax"
+BACKGROUND_DIR = r"Parallax"
 SPEED = 2
 
 class Background:
